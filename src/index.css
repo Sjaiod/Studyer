@@ -1,0 +1,131 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+  background: #016864;
+  overflow-x:hidden;
+  min-height: 200vh;
+}
+.bg-primary-show-card01{
+  box-shadow: 1px 1px 3px 2px #00302d ;
+}
+.bg-primary-show-card{
+  box-shadow: 1px 1px 3px 2px #00302d ;
+  cursor: pointer;
+  transition: all 0.8s ease;
+  border-radius: 5%;
+}
+.gradient-01 {
+  background-image: linear-gradient(
+    270deg,
+    hsl(135, 90%, 45%) 0%,
+    hsl(202, 100%, 53%) 26%,
+    hsl(157, 95%, 48%) 39%,
+    hsl(202deg 92% 90%) 50%,
+    hsl(128, 93%, 42%) 61%,
+    hsl(125, 56%, 58%) 74%,
+    hsl(170, 98%, 50%) 100%
+  );
+  filter: blur(125px);
+}
+
+.hero-gradient {
+  background: linear-gradient(
+    97.86deg,
+    #a509ff 0%,
+    #34acc7 53.65%,
+    #a134c7 100%
+  );
+}
+
+.gradient-02 {
+  position: absolute;
+  width: 200px;
+  height: 438px;
+  top: 0px;
+  right: 0px;
+
+  background: #7aebfb;
+  filter: blur(190px);
+}
+.bg-primary-show-card:hover{
+  background: #1f9ca8;
+}
+.bg-primary-show{
+  box-shadow: 2px 2px #00302d ;
+}
+.bg-primary-show-5{
+  box-shadow: 15px 15px #00302d ;
+}
+.--bg-primary{
+  background: #016864;
+}
+.--bg-secoundary{
+  background: #1f9ca8;
+}
+.--bg-secoundary-hover:hover{
+  transition: all 0.5s ease-out;
+  background: #1f9ca8;
+}
+.--color-secoundary{
+  color: #1f9ca8
+}
+.--color-secoundary-hover:hover{
+  color: #1f9ca8
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+  background: #016864;
+}
+.root{
+  background:#016864;;
+}
+
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+
+}
