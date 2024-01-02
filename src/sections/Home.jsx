@@ -7,13 +7,7 @@ import SlidingComponent from '../components/SlidingComponent'
 const Home = () => {
   return (
 <section className="relative top-[75px] w-full px-5 flex items-center justify-center pt-20 flex-col content-center gap-2">
-  <motion.div
-  variants={slideIn("left","tween",0.8,1.3)}
-  initial="hidden"
-  whileInView="show"
-  viewport={{once:true}}
-  
-  className=" absolute w-[50%] inset-0 gradient-01"/>
+
     <motion.h1
         variants={navVariants(0.8)}
         initial="hidden"
